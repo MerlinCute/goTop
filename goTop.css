@@ -1,0 +1,35 @@
+/*Back to top*/
+
+.top {
+    /*display: block;  */
+    /* position: fixed;
+    bottom: 5em;
+    right: 5em;*/
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+.showThis {
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+
+/* shortcut toolbar */
+.toolbar {
+    position: fixed;
+    bottom: 5em;
+    right: 2em;
+    width: 4em;
+    height: 15em;
+    opacity: 1;
+    filter: alpha(opacity=1);
+    z-index: 10;
+}
+
+.toolbar-item {
+    bottom: 0px;
+    /*     position: fixed;
+    right: 10px; */
+}
